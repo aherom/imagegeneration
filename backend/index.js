@@ -5,7 +5,7 @@ const axios = require('axios');
 const routeimage =require('./route/imageroute')
 const app = express();
 const dotenv = require('dotenv');
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'grand-hummingbird-2f27a0.netlify.app' }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
